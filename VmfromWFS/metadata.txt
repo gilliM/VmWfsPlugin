@@ -26,9 +26,9 @@ email=info@camptocamp.com
 # tags are comma separated with spaces allowed
 tags=value map, wfs, attribute, widget
 
-homepage=https://github.com/gilliM/VrWfsPlugin
-tracker= https://github.com/gilliM/VrWfsPlugin/issues
-repository=
+homepage= https://github.com/gilliM/VmWfsPlugin
+tracker= https://github.com/gilliM/VmWfsPlugin/issues
+repository= 
 icon=icon.png
 # experimental flag
 experimental=True
