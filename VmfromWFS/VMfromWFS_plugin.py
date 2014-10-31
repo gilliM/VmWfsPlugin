@@ -56,13 +56,16 @@ class VmFromWfs:
         self.iface.removeToolBarIcon(self.action)
 
     def run(self):
-        """ "For getting an automated updates of value map,
+        """For getting an automated updates of value map,
         the user select a layer in the legend tree and click on
-        the plugin button. The present run button in launched
+        the plugin button. The present run function in launched
         and follow these steps:
         1. check that a wfs layer is selected
-        2. get the DescribeFeatureType service and retrieve the layer element
-        3. 
+        2. get the DescribeFeatureType service and retrieve the layer element name
+        3. From the name, getting the layer type element
+        4. in the layer type element, getting all enumeration present
+        5. for all attributes having an enumeration in the WFS, setting the valueMap
+        widget with appropriate values
         
         """
 
