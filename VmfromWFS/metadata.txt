@@ -14,7 +14,7 @@ qgisMinimumVersion=2.0
 description=read info in wfs and configure widgets of qgis autoform
 version=0.1
 author=camptocamp
-email=info@camptocamp.com
+email=gillian.milani@camptocamp.com
 
 # end of mandatory metadata
 
@@ -28,7 +28,7 @@ tags=value map, wfs, attribute, widget
 
 homepage= https://github.com/gilliM/VmWfsPlugin
 tracker= https://github.com/gilliM/VmWfsPlugin/issues
-repository= 
+repository=https://github.com/gilliM/VmWfsPlugin
 icon=icon.png
 # experimental flag
 experimental=True

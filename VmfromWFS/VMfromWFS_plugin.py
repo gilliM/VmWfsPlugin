@@ -66,7 +66,6 @@ class VmFromWfs:
         4. in the layer type element, getting all enumeration present
         5. for all attributes having an enumeration in the WFS, setting the valueMap
         widget with appropriate values
-        
         """
 
         # get the current layer
